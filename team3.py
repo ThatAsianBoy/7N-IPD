@@ -6,9 +6,9 @@
 #     move: A function that returns 'c' or 'b'
 ####
 import random 
-team_name = 'The Octonauts' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+team_name = 'Tofu Cracker' # Only 10 chars displayed.
+strategy_name = 'winning strategy'
+strategy_description = 'the algorithms wait for the opponent to do a certain pattern and when the opponent does that pattern, our algorith sends out a certain decided response. The other one sends out a certain pattern once the score of either the opponent or you gets to a certain point.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
